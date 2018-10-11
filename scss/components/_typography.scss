@@ -1,0 +1,43 @@
+// Google fonts
+
+@import url('https://fonts.googleapis.com/css?family=Krub:400,700');
+
+
+.container {}
+
+
+	
+.link{
+	color: $color-default;
+	font-weight: bold;
+	text-decoration: $decor;
+
+}
+
+
+.blockquote {
+	margin: $margin-quot;
+	padding-left: 20px;
+	font-size: $font-quotes;
+	font-style: italic;
+	color: $color-font;
+	display: block;
+	border-left: 6px solid $color-primary;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+
+.headline--primary {
+	padding-left: 25px;
+	font-weight: 700;
+	color: $color-primary;
+	margin: $margin-list;
+}
+
+
+.headline--secondary{
+	color: $color-font;
+	font-weight: normal;
+	text-align: left;
+}

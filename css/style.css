@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Krub:400,700");
+* {
+  box-sizing: border-box;
+  margin: 0 auto; }
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  text-align: center;
+  font-family: "Krub", sans-serif;
+  background-color: #fff; }
+
+p {
+  color: #6c6d6c; }
+
+ul {
+  list-style: none; }
+
+.btn--default {
+  background-color: #59ddfa; }
+
+.btn--success {
+  background-color: #5fe0c1; }
+
+.btn--error {
+  background-color: #e2767c; }
+
+.btn--warning {
+  background-color: #fa785b; }
+
+.btn--info {
+  background-color: #927dbf; }
+
+.form {
+  margin: 100px 0 50px;
+  display: flex;
+  flex-direction: column; }
+  .form legend {
+    width: 90%;
+    margin: 0;
+    justify-content: flex-start; }
+
+.grid__row {
+  margin: 40px 0 10px; }
+
+.card {
+  text-align: left; }
+
+.img--logo {
+  margin: 20px 0; }
+
+.img--frame {
+  width: 90%; }
+
+.img--avatar {
+  margin: 20px auto; }
+
+.nav {
+  padding: 0; }
+  .nav li {
+    margin: 20px 0; }
+  .nav a {
+    color: #6c6d6c;
+    text-decoration: none; }
+
+.link {
+  color: #59ddfa;
+  font-weight: bold;
+  text-decoration: none; }
+
+.blockquote {
+  margin: 20px 0 20px 25px;
+  padding-left: 20px;
+  font-size: 24px;
+  font-style: italic;
+  color: #6c6d6c;
+  display: block;
+  border-left: 6px solid #5fe0c1;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px; }
+
+.headline--primary {
+  padding-left: 25px;
+  font-weight: 700;
+  color: #5fe0c1;
+  margin: 20px 0; }
+
+.headline--secondary {
+  color: #6c6d6c;
+  font-weight: normal;
+  text-align: left; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+// base style
+
+* {
+	box-sizing: border-box;
+	margin: $margin-default;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	width: $screen;
+	text-align: center;
+	font-family: $font-stack;
+	background-color: $color-bg;
+}
+
+p{
+	color: $color-font;
+	
+}
+
+ul{
+	list-style: $decor;
+
+}
