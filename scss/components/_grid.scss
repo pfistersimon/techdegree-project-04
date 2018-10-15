@@ -35,7 +35,11 @@
 .grid__col--7 {}
 
 
-.grid__col--8 {}
+.grid__col--8 {
+	.card{
+		text-align: $align-l;
+	}
+}
 
 
 .grid__col--9 {}

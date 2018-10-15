@@ -324,10 +324,25 @@ ul {
 .grid__row {
   margin: 20px 0; }
 
+.grid__col--8 .card {
+  text-align: left; }
+
 .nav__item {
   margin: 25px 0; }
   .nav__item a {
     color: #818181;
     text-decoration: none; }
+
+.link {
+  color: #51ddfc;
+  font-weight: bold;
+  text-decoration: none; }
+
+.headline--primary {
+  color: #58e1c1; }
+
+.headline--secondary {
+  font-weight: normal;
+  text-align: left; }
 
 /*# sourceMappingURL=style.css.map */

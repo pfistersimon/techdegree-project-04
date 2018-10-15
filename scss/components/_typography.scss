@@ -8,7 +8,9 @@
 
 	
 .link{
-
+	color: $color-default;
+	font-weight: bold;
+	text-decoration: none;
 
 }
 
@@ -19,8 +21,12 @@
 
 
 .headline--primary {
+	color: $color-primary;
 	
 }
 
 
-.headline--secondary{ }
+.headline--secondary{
+	font-weight: normal;
+	text-align: $align-l;
+}
