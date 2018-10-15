@@ -17,6 +17,23 @@ $color-warning: #fd7856;
 $color-info: #927bc1;
 
 
+// color variable
+$color-default-light: lighten($color-default, 10%);
+$color-default-dark: darken($color-default, 10%);
+
+$color-success-light: lighten($color-success, 10%);
+$color-success-dark: darken($color-success, 10%);
+
+$color-error-light: lighten($color-error, 10%);
+$color-error-dark: darken($color-error, 10%);
+
+$color-warning-light: lighten($color-warning, 10%);
+$color-warning-dark: darken($color-warning, 10%);
+
+$color-info-light: lighten($color-info, 15%);
+$color-info-dark: darken($color-info, 10%);
+
+
 // fonts
 $font-stack: 'Krub', sans-serif;
 
@@ -26,3 +43,6 @@ $font-stack: 'Krub', sans-serif;
 $align-l: left; 
 $align-c: center;
 $align-r: right;
+
+// border radius
+$b-radius: 3px;

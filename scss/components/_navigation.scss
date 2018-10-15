@@ -1,13 +1,22 @@
-// nav
-
+//=====================================
+//NAVIGATION
+//=====================================
 
 
 .nav__item {
-	margin: 25px 0;
+	padding: 20px 0;
 	a {
 		color: $color-font;
 		text-decoration: none;
-
+		width: 50%;
 	}
 	
+}
+
+.nav__item:hover {
+	background-color: $color-primary;
+	border-radius: $b-radius;
+	a { 
+		color: $color-bg;
+	}
 }

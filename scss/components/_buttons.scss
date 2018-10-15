@@ -1,23 +1,28 @@
-// buttons
+//=====================================
+// BUTTONS
+//=====================================
 
 .btn--default {
-
+	background-color: $color-default;
 }
     
 .btn--success {
-	
+	background-color: $color-success;
 }
 
 .btn--error {
-	
+	background-color: $color-error;
 }
 
 .btn--warning {
-	
+	background-color: $color-warning;
 }
 
 .btn--info {
-	
+	background-color: $color-info;
 }
 
-.theme__colors {}
+.btn--default.theme__color {  //need extends for buttons
+	background-color: $color-default;
+	outline: none;
+}

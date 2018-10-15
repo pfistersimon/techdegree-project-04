@@ -1,14 +1,26 @@
 // forms
 
 .form {
-	
+	display: flex;
+	flex-direction: column;
+
 	
 
 }
 
 
-.form__label--hidden{}
+.form__label--hidden{
+	display: none;
+
+}
     
- .form__input {}
+ .form__input {
+	height: 40px;
+	border: none;
+	border-bottom: 4px solid $color-primary;
+	outline: none;
+	color: $color-bg;
+	text-align: $align-c;
+ }
 
 

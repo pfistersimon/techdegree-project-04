@@ -1,16 +1,9 @@
-// header grid
-
-.container {
-
-}
-
-
-
+//=====================================
+// GIRD
+//=====================================
 
 .grid__row {
-	margin: 20px 0;
-
-
+	margin: 30px 0;
 }
 
 
@@ -19,23 +12,36 @@
 .grid__col--2 {}
 
 
-.grid__col--3 {}
+.grid__col--3.theme__colors{
+	background-color: $color-info-light;
+}
 
-
-.grid__col--4 {}
-
-
-.grid__col--5 {}
-
-
-.grid__col--6 {
+.grid__col--4.theme__colors{
+	background-color: $color-default-light;
 }
 
 
-.grid__col--7 {}
+.grid__col--5.theme__colors{
+	background-color: $color-success-dark;
+}
 
 
-.grid__col--8 {
+.grid__col--6.theme__colors{
+	background-color: $color-default-dark;
+}
+
+
+.grid__col--7.theme__colors{
+	background-color: $color-error-light;
+}
+
+.grid__col--8.theme__colors{
+	background-color: $color-warning-light;
+}
+
+
+
+.grid__col--8{
 	.card{
 		text-align: $align-l;
 	}
@@ -51,18 +57,56 @@
 .grid__col--11 {}
 
 
-.grid__col--12 {}
+.grid__col--12 {
+	display: flex;
+	flex-direction: column;
+	button { //maybe button to ectends partial move
+		height: 40px;
+		margin: 10px 0;
+		border-radius: $b-radius;
+		text-align: $align-c;
+		text-transform: uppercase;
+		color: $color-bg;
+		outline: none;              
+		
+	}
+	button:active{
+		border-image: none;
+	}
+
+}
+
+
+.grid__col--12.theme__colors{
+	background-color: $color-success-light;
+}
+
 
 
 .centered {}
 
-
-.theme__color {
+.theme__colors {
+	padding: 10px 0;
+	margin: 8px 0;
+	border-radius: $b-radius;
+	text-align: $align-l;
 
 }
 
 
 
-.card {
-	
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -16,12 +16,21 @@
 
 
 .blockquote {
-	
+	font-size: 24px;
+	font-style: italic;
+	padding-left: 20px;
+	margin-left: 20px;
+	border-left: 8px solid $color-primary;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+
+
 }
 
 
 .headline--primary {
 	color: $color-primary;
+	padding-left: 20px;
 	
 }
 
