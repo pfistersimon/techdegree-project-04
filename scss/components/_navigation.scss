@@ -1,16 +1,13 @@
 // nav
 
-.nav {
-	padding: $padding-default;
-	li {
-		margin: $margin-list;
-	}
+
+
+.nav__item {
+	margin: 25px 0;
 	a {
 		color: $color-font;
 		text-decoration: none;
-	}
-}
 
-.nav-item {
+	}
 	
 }

@@ -2,24 +2,28 @@
 
 * {
 	box-sizing: border-box;
-	margin: $margin-default;
+	
 }
 
 .container {
 	margin: 0 auto;
 	padding: 0;
-	width: $screen;
-	text-align: center;
+	width: 90%;
+	text-align: $align-c;
 	font-family: $font-stack;
 	background-color: $color-bg;
+	color: $color-font;
+
+
+	
 }
 
 p{
-	color: $color-font;
+	
 	
 }
 
 ul{
-	list-style: $decor;
+	
 
 }

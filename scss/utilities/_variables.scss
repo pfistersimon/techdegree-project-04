@@ -4,46 +4,25 @@
 // ==============================
 
 // color
+$color-primary: #58e1c1;
 $color-bg: #fff;
-$color-primary: #5fe0c1;
+$color-font: #818181;
 
 
-// button color
-$color-default: #59ddfa;
-$color-error: #e2767c;
-$color-warning: #fa785b;
-$color-info: #927dbf;
-
-// font color
-$color-font: #6c6d6c;
+// color button
+$color-default: #51ddfc;
+$color-success: #63cc82;
+$color-error: #e4757a;
+$color-warning: #fd7856;
+$color-info: #927bc1;
 
 
-// font
+// fonts
 $font-stack: 'Krub', sans-serif;
-$font-quotes: 24px;
 
 
-// screen width
-$screen: 90%;
+// aligment
 
-
-// margin
-$margin-default: 0 auto;
-$margin-list: 20px 0;
-$margin-grid: 40px 0 10px;
-$margin-quot: 20px 0 20px 25px;
-
-
-// padding
-$padding-default: 0;
-
-
-
-// list style
-$decor: none;
-
-
-// breackpoints
-
-$mobil: 480px;
-$desktop: 1400px;
+$align-l: left; 
+$align-c: center;
+$align-r: right;
