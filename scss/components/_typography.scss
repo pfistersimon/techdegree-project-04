@@ -7,12 +7,7 @@
 
 
 	
-.link{
-	color: $color-default;
-	font-weight: bold;
-	text-decoration: none;
 
-}
 
 
 .blockquote {
@@ -31,11 +26,18 @@
 .headline--primary {
 	color: $color-primary;
 	padding-left: 20px;
+	.link{
+	color: $color-default;
+	font-weight: bold;
+	text-decoration: none;
+	}
 	
 }
 
 
 .headline--secondary{
+	margin-top: 70px;
 	font-weight: normal;
 	text-align: $align-l;
+
 }

@@ -4,19 +4,30 @@
 
 
 .nav__item {
+	@include flex-c;
 	padding: 20px 0;
 	a {
 		color: $color-font;
 		text-decoration: none;
-		width: 50%;
+		}
+	&:hover{
+	background-color: $color-primary;
+	border-radius: $b-radius;
+		a { 
+		color: $color-bg;
+		}
 	}
 	
 }
 
-.nav__item:hover {
-	background-color: $color-primary;
-	border-radius: $b-radius;
-	a { 
-		color: $color-bg;
+
+.nav{
+	@include mq(mobil) {
+		@include flex-r;
+		justify-content: flex-end;
+		align-content: space-around;
 	}
+
+
 }
+

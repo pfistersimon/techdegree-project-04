@@ -2,4 +2,16 @@
 // EXTENDS
 //================================
 
+%clearfix{
+	&::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
 
+%center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

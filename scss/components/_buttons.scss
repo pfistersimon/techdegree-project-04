@@ -2,27 +2,26 @@
 // BUTTONS
 //=====================================
 
-.btn--default {
-	background-color: $color-default;
-}
+
+.btn{
+ 	&--default {
+	@include button($color-default);
+	}
     
-.btn--success {
-	background-color: $color-success;
-}
+	&--success {
+	@include button($color-success);
+	}
 
-.btn--error {
-	background-color: $color-error;
-}
+	&--error {
+	@include button($color-error);
+	}
 
-.btn--warning {
-	background-color: $color-warning;
-}
+	&--warning {
+	@include button($color-warning);
+	}
 
-.btn--info {
-	background-color: $color-info;
-}
+	&--info {
+	@include button($color-info)
+	}
 
-.btn--default.theme__color {  //need extends for buttons
-	background-color: $color-default;
-	outline: none;
 }

@@ -1,0 +1,72 @@
+// =================================
+// MIXINS
+// =================================
+
+
+// media queri
+
+@mixin mq($break) {
+	@if $break == "mobil" {
+		@media (min-width : $breakpoint-mobil) {
+		 @content;
+		}
+	}
+
+	@else if $break == "screen" {
+		@media (min-width : $breakpoint-screen) {
+			@content
+		}
+	} 
+	
+	@else {
+		@error 'No value could be retrieved for `#{$break}`';
+	}
+}
+
+// button
+
+@mixin button($color-btn) {
+	width: 100%;
+	height: 40px;
+	margin: 10px 0;
+	border-radius: $b-radius;
+	text-transform: uppercase;
+	color: $color-bg;
+	background-color: $color-btn;
+	outline: none;
+	&:hover {
+		 cursor:pointer;
+	}
+}
+
+
+// input
+
+@mixin input {
+	height: 40px;
+	margin: 10px 0;
+	font-size: 10px;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	border-bottom: 4px solid $color-primary;
+}
+
+
+
+// display
+
+@mixin flex-c {
+	display: flex;
+	flex-direction: column;
+}
+
+
+@mixin flex-r {
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+
