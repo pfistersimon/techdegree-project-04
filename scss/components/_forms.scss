@@ -2,6 +2,7 @@
 
 .form {
 	@include flex($dir: column);
+	flex-grow: 3;
 }
 
 

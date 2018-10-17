@@ -3,6 +3,16 @@
 //=====================================
 
 
+.nav {
+	@include mq("mobil") {
+		@include flex($dir: row);
+		width: 500px;
+		margin-top: 20px;
+		margin-right: 100px;
+	}
+}	
+
+
 
 .nav__item {
 	padding: 20px 0;
@@ -16,10 +26,12 @@
 		a { 
 		color: $color-bg;
 		}
+	}
+	@include mq("mobil") {
+		flex-grow: 3;
 	}	
 	
 }
-
 
 
 

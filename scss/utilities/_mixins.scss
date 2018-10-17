@@ -6,6 +6,7 @@
 // media queri
 
 @mixin mq($break) {
+
 	@if $break == "mobil" {
 		@media (min-width : $break-mobil) {
 		 @content;
