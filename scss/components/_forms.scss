@@ -1,7 +1,7 @@
 // forms
 
 .form {
-	@include flex-c;
+	@include flex($dir: column);
 }
 
 

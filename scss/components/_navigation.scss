@@ -3,8 +3,8 @@
 //=====================================
 
 
+
 .nav__item {
-	@include flex-c;
 	padding: 20px 0;
 	a {
 		color: $color-font;
@@ -16,18 +16,11 @@
 		a { 
 		color: $color-bg;
 		}
-	}
+	}	
 	
 }
 
 
-.nav{
-	@include mq(mobil) {
-		@include flex-r;
-		justify-content: flex-end;
-		align-content: space-around;
-	}
 
 
-}
 

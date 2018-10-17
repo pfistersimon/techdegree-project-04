@@ -7,13 +7,13 @@
 
 @mixin mq($break) {
 	@if $break == "mobil" {
-		@media (min-width : $breakpoint-mobil) {
+		@media (min-width : $break-mobil) {
 		 @content;
 		}
 	}
 
 	@else if $break == "screen" {
-		@media (min-width : $breakpoint-screen) {
+		@media (max-width : $break-screen) {
 			@content
 		}
 	} 
@@ -54,17 +54,18 @@
 
 
 
-// display
+// display flexbox
 
-@mixin flex-c {
-	display: flex;
-	flex-direction: column;
-}
-
-
-@mixin flex-r {
-	display: flex;
-	flex-direction: row;
+@mixin flex(
+	$disp: flex,
+	$dir: null,
+	$wrap: null, 
+	$just: null,
+	$alg-c: null) {
+	display: $disp;
+	flex-direction: $dir;
+	flex-wrap: $wrap;
+	justify-content: $just;
 }
 
 

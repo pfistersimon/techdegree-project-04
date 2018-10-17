@@ -1,14 +1,15 @@
+// ==========================================
+// TYPOGRAPHY
+// ==========================================
+
+
 // Google fonts
 
 @import url('https://fonts.googleapis.com/css?family=Krub:400,700');
 
 
-.container {}
 
-
-	
-
-
+// QUOTE AND HEADLINE LAYOUT
 
 .blockquote {
 	font-size: 24px;
@@ -25,13 +26,7 @@
 
 .headline--primary {
 	color: $color-primary;
-	padding-left: 20px;
-	.link{
-	color: $color-default;
-	font-weight: bold;
-	text-decoration: none;
-	}
-	
+	padding-left: 20px;	
 }
 
 
@@ -40,4 +35,11 @@
 	font-weight: normal;
 	text-align: $align-l;
 
+}
+
+
+.link {
+	color: $color-default;
+	font-weight: 700;
+	text-decoration: none;
 }

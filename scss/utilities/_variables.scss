@@ -39,6 +39,11 @@ $color-info-dark: 		darken($color-info, 10%);
 $font-stack: 'Krub', sans-serif;
 
 
+ // layout
+
+ $max-width: 1400px;
+
+
 // aligment
 
 $align-l	: left; 
@@ -50,5 +55,5 @@ $b-radius: 3px;
 
 
 // breakpoint
-$breakpoint-mobil	: 480px;
-$breakpoint-screen	: 768px;
+$break-mobil	: 480px;
+$break-screen	: 1400px;
