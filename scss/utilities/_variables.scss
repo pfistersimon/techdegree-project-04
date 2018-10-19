@@ -19,20 +19,15 @@ $color-info		: #927bc1;
 
 
 // color variable
-$color-default-light: 	lighten($color-default, 10%);
-$color-default-dark: 	darken($color-default, 10%);
-
-$color-success-light: 	lighten($color-success, 10%);
-$color-success-dark: 	darken($color-success, 10%);
-
-$color-error-light: 	lighten($color-error, 10%);
-$color-error-dark: 		darken($color-error, 10%);
-
-$color-warning-light: 	lighten($color-warning, 10%);
-$color-warning-dark: 	darken($color-warning, 10%);
-
-$color-info-light: 		lighten($color-info, 15%);
-$color-info-dark: 		darken($color-info, 10%);
+$colorgrid: (
+    "12" :  #70e5cb,
+    "8"  :  #ff9477,
+    "7"  :  #eb9498,
+    "6"  :  #31A1C5,
+    "5"  :  #7ad594,
+    "4"  :  #6ee2ff,
+    "3"  :  #daa7ed,
+);
 
 
 // fonts
@@ -57,3 +52,16 @@ $b-radius: 3px;
 // breakpoint
 $break-mobil	: 480px;
 $break-screen	: 1400px;
+
+
+
+
+
+
+
+// test veribal
+
+$g-col-width: 40px;
+$g-gutter-width: 10px;
+$g-col-count: 12;
+$g-container-max-width:1000px;

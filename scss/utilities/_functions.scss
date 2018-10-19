@@ -2,7 +2,7 @@
 // FUNCTIONS
 // =====================================
 
-@function px-to-pc($target, $context: $max-width) {
+@function pxtoperc($target, $context:$max-width) {
 	@return ($target / $context) * 100%;
 }
 
@@ -12,3 +12,9 @@
 	$-total: $items * $g-pct;
 	@return (100% / items) - $g-total;
 }
+
+
+@function gcontext($gcolwidth, $gcolcount, $ggutterwidth){
+	$gcontext: ($gcolwidth * $gcolcount) + ($ggutterwidth * ($gcolcount - 1));
+	@return $gcontext;
+  }

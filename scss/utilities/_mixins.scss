@@ -2,6 +2,22 @@
 // MIXINS
 // =================================
 
+// Flexbox mixin
+
+@mixin flex(
+	$disp: flex,
+	$dir: null,
+	$wrap: null, 
+	$just: null,
+	$alg-c: null) {
+	display: $disp;
+	flex-direction: $dir;
+	flex-wrap: $wrap;
+	justify-content: $just;
+}
+
+
+
 
 // media queri
 
@@ -41,6 +57,7 @@
 }
 
 
+
 // input
 
 @mixin input {
@@ -54,21 +71,15 @@
 }
 
 
+// gird
 
-// display flexbox
+@mixin color_grid($col) {
+	&.theme__colors{
+	background: map-get($colorgrid,$col);
+	}
 
-@mixin flex(
-	$disp: flex,
-	$dir: null,
-	$wrap: null, 
-	$just: null,
-	$alg-c: null) {
-	display: $disp;
-	flex-direction: $dir;
-	flex-wrap: $wrap;
-	justify-content: $just;
+	
 }
-
 
 
 

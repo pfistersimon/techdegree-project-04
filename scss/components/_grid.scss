@@ -18,83 +18,11 @@
 	margin: 30px 0;
 	@include mq("mobil") {
 		@include flex($dir: row, $just: space-between);
-		border: 1px solid black;
-		
+		border: 1px solid black;	
 	}
-}
-
-
-
-
-.grid__col--2 {}
-
-.grid__col--3{
-
-	
-}
-
-
-
-
-.grid__col--3.theme__colors{
-	background-color: $color-info-light;
-}
-
-.grid__col--4.theme__colors{
-	background-color: $color-default-light;
-}
-
-
-.grid__col--5.theme__colors{
-	background-color: $color-success-dark;
-}
-
-
-.grid__col--6.theme__colors{
-	background-color: $color-default-dark;
-}
-
-
-.grid__col--7.theme__colors{
-	background-color: $color-error-light;
-}
-
-.grid__col--8.theme__colors{
-	background-color: $color-warning-light;
-}
-
-
-
-.grid__col--8{
-	flex-shrink: 2;
-
-	.card{
-		text-align: $align-l;
-			}
-}
-
-
-.grid__col--9 {
-	
-}	
-
-
-
-.grid__col--10 {}
-
-
-.grid__col--11 {}
-
-
-.grid__col--12 {
-	display: block;
 
 }
 
-
-.grid__col--12.theme__colors{
-	background-color: $color-success-light;
-}
 
 
 
@@ -105,6 +33,14 @@
 	margin: 8px 0;
 	border-radius: $b-radius;
 
+}
+
+@for $i from 3 through $g-col-count {
+	$context: gcontext($g-col-width, $g-col-count, $g-gutter-width);
+	$target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1) );
+	.grid__col--#{$i}{
+		@include color_grid(#{$i});	
+	}
 }
 
 
